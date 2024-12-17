@@ -17,7 +17,7 @@ function LanguageProvider(props) {
     const changeLang = (getLang) => {
         
         // set locale
-        setLocale(getLang)                                   
+        setLocale(getLang)
         
         // change language files
         switch (getLang) {
